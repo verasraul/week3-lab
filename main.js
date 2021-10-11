@@ -74,8 +74,7 @@ const computefactorial = (n) => {
     for (let i = n; i >= 1; i--) {
       //multiplies 1 by i
       factor *= i;
-    }
-    //returns our factorial answer
+    };
     console.log(`The factorial of ${n} = ${factor}`);
     // return factor;
   };
